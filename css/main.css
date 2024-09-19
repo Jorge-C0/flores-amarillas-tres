@@ -40,12 +40,12 @@ body {
 
 }
 .titulo {
-  margin-bottom: 180px;
-  font-family: "Arial Narrow", Arial, sans-serif;
-  color: yellow;
+  margin-bottom: 780px;
+  font-family: "Brush Script MT";
+  color: rgb(225, 0, 255);
   position: absolute;
   font-weight: bold;
-  letter-spacing: 10px;
+  letter-spacing: 7px;
   opacity: 0;
   animation: fadeIn 3s ease-in-out forwards;
   text-align: center;
@@ -76,7 +76,7 @@ body {
     radial-gradient(
       ellipse at bottom,
       var(--dark-color),
-      rgba(145, 233, 255, 0.2)
+      rgba(202, 145, 255, 0.2)
     ),
     repeating-linear-gradient(
       220deg,
@@ -99,7 +99,7 @@ body {
       transparent 19px,
       transparent 22px
     ),
-    linear-gradient(90deg, rgb(0, 255, 250), rgb(240, 240, 240));
+    linear-gradient(90deg, rgb(140, 0, 255), rgb(240, 240, 240));
 }
 
 .flowers {
